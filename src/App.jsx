@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <AnimatePresence>
-        {loading && <Loader />}
+        {loading &&  <Loader />}
       </AnimatePresence>
 
       {!loading && (
